@@ -196,7 +196,7 @@ body {
   color: #f6d41c;
 }
 .header-mobile-auth {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
 }
 .header-mobile-copyright-desc {
@@ -205,9 +205,9 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 22%;
 }
 
 .header-bars-btn {
@@ -288,6 +288,7 @@ body {
 .product-desc {
   text-align: center;
   margin-top: 40px;
+  line-height: 2;
 }
 .product-img {
   display: flex;
@@ -677,7 +678,7 @@ body {
   display: inline-block;
   position: absolute;
   top: 0;
-  left: 16%;
+  left: 18.5%;
   margin-top: -25px;
   letter-spacing: 1.3px;
   background: #f6d41c;
