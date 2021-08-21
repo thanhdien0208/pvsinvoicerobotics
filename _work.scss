@@ -1,0 +1,22 @@
+.work {
+    margin-top: 50px;
+    text-align: center;
+
+    &-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    &-item__title{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .button {
+        padding: 15px 40px;
+    }
+
+}

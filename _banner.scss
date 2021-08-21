@@ -1,0 +1,37 @@
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+
+    &-info {
+        width: 50%;
+    }
+
+    &-image {
+        width: 50%;
+    }
+
+    &-heading {
+        line-height: 1.4;
+        margin-bottom: 40px;
+    }
+
+    &-desc {
+        font-weight: 400;
+        font-size: 22px;
+        color: $gray-blur;
+        margin-bottom: 50px;
+    }
+
+    &-links {
+        // margin-bottom: 210px;
+        .button {
+            padding: 15px 40px;
+        }
+        .button i{
+            margin-left: 1rem;
+        }
+    }
+
+}

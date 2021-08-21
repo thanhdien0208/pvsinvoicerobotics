@@ -1,0 +1,108 @@
+.price {
+    margin-top: 100px;
+    text-align: center;
+
+    &-desc {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    &-group {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    &-card-free {
+        border: 3px solid $primary-color;
+        padding: 55px 30px 30px 30px;
+        max-width: 300px;
+        border-radius: 8px;
+    }
+    &-card-basic {
+        border: 3px solid $primary-color;
+        padding: 55px 30px 30px 30px;
+        max-width: 300px;
+        border-radius: 8px;
+        background-color: #f7f7f7;
+        position: relative;
+    }
+    &-card-advanced {
+        border: 3px solid $primary-color;
+        padding: 55px 30px 30px 30px;
+        max-width: 300px;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    &-card-label{
+        color: white;
+        padding: 10px 30px;
+        font-size: 22px;
+        font-weight: 400;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 16%;
+        margin-top: -25px;
+        letter-spacing: 1.3px;
+        background: $primary-color;
+        border: none;
+        // border-radius: 1000px;
+        box-shadow: 5px 5px 20px $primary-color;
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+
+        &:hover,
+        :focus {
+            color: white;
+            transform: translateY(-6px);
+        }
+
+
+    }
+
+
+    &-card-money {
+        color: $primary-color;
+    }
+
+    &-card-title,
+    &-card-money {
+        margin-bottom: 20px;
+    }
+
+    &-card-day {
+        text-align: center;
+        color: $gray-dark;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: italic;
+        margin-bottom: 40px;
+    }
+
+    &-card-text{
+        text-align: start;
+        margin-bottom: 15px;
+        margin-left: 10%;
+    }
+
+    &-card-item{
+        text-align: start;
+        list-style-type: none;
+        line-height: 2;
+        margin-bottom: 20px;
+        margin-left: 8%;
+        height: calc(100% - 20rem);
+    }
+
+    .button {
+        padding: 15px 30px;
+        margin-top: 40px;
+
+
+    }
+
+}

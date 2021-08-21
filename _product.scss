@@ -1,0 +1,321 @@
+.product {
+    position: relative;
+    margin-top: 100px;
+    
+    &-title {
+        text-align: center;
+        
+    }
+
+    &-desc {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    &-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-desc {
+        font-size: 18px;
+        color: $gray-dark;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    &-list {
+        margin-left: 35%;
+        line-height: 2;
+    }
+
+    &-item i{
+        margin-right: 2rem;
+        color: white;
+        font-size: 22px;
+    }
+
+    &-ellipse-group {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    // Ellipse 1
+
+    &-ellipse-1 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 80px;
+        top: -15%;
+        background: #EEF228;
+    }
+    &-ellipse-2 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 90px;
+        top: -15%;
+        background: #EEF228;
+    }
+    &-ellipse-3 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 100px;
+        top: -15%;
+        background: #EEF228;
+    }
+    &-ellipse-4 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 110px;
+        top: -15%;
+        background: #EEF228;
+    }
+    &-ellipse-5 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 120px;
+        top: -15%;
+        background: #EEF228;
+    }
+    &-ellipse-6 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 80px;
+        top: -12%;
+        background: #EEF228;
+    }
+    &-ellipse-7 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 90px;
+        top: -12%;
+        background: #EEF228;
+    }
+    &-ellipse-8 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 100px;
+        top: -12%;
+        background: #EEF228;
+    }
+    &-ellipse-9 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 110px;
+        top: -12%;
+        background: #EEF228;
+    }
+    &-ellipse-10 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 120px;
+        top: -12%;
+        background: #EEF228;
+    }
+    &-ellipse-11 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 80px;
+        top: -9%;
+        background: #EEF228;
+    }
+    &-ellipse-12 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 90px;
+        top: -9%;
+        background: #EEF228;
+    }
+    &-ellipse-13 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 100px;
+        top: -9%;
+        background: #EEF228;
+    }
+    &-ellipse-14 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 110px;
+        top: -9%;
+        background: #EEF228;
+    }
+    &-ellipse-15 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 120px;
+        top: -9%;
+        background: #EEF228;
+    }
+
+    // ellipse 2
+    &-ellipse-16 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 900px;
+        top: 100%;
+        background: #EEF228;
+    }
+    &-ellipse-17 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 910px;
+        top: 100%;
+        background: #EEF228;
+    }
+    &-ellipse-18 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 920px;
+        top: 100%;
+        background: #EEF228;
+    }
+    &-ellipse-19 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 930px;
+        top: 100%;
+        background: #EEF228;
+    }
+    &-ellipse-20 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 940px;
+        top: 100%;
+        background: #EEF228;
+    }
+    &-ellipse-21 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 900px;
+        top: 103%;
+        background: #EEF228;
+    }
+    &-ellipse-22 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 910px;
+        top: 103%;
+        background: #EEF228;
+    }
+    &-ellipse-23 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 920px;
+        top: 103%;
+        background: #EEF228;
+    }
+    &-ellipse-24 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 930px;
+        top: 103%;
+        background: #EEF228;
+    }
+    &-ellipse-25 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 940px;
+        top: 103%;
+        background: #EEF228;
+    }
+    &-ellipse-26 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 900px;
+        top: 106%;
+        background: #EEF228;
+    }
+    &-ellipse-27 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 910px;
+        top: 106%;
+        background: #EEF228;
+    }
+    &-ellipse-28 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 920px;
+        top: 106%;
+        background: #EEF228;
+    }
+    &-ellipse-29 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 930px;
+        top: 106%;
+        background: #EEF228;
+    }
+    &-ellipse-30 {
+        position: absolute;
+        width: 9px;
+        height: 11px;
+        border-radius: 50%;
+        left: 940px;
+        top: 106%;
+        background: #EEF228;
+    }
+
+}

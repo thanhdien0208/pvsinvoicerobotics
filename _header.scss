@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 30px 60px 0px 60px;
+
+    &-logo {
+        display: block;
+        margin-right: 180px;
+
+        &-image {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+    }
+
+    &-auth {
+        margin-left: auto;
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    &-menu-item:not(:first-child) {
+        margin-left: 60px;
+    }
+
+    &-menu-link {
+        color: $gray-dark;
+        font-weight: 500;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
