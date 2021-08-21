@@ -17,13 +17,13 @@
     &-card-free {
         border: 3px solid $primary-color;
         padding: 55px 30px 30px 30px;
-        min-width: 320px;
+        width: 310px;
         border-radius: 8px;
     }
     &-card-basic {
         border: 3px solid $primary-color;
         padding: 55px 30px 30px 30px;
-        min-width: 320px;
+        width: 310px;
         border-radius: 8px;
         background-color: #f7f7f7;
         position: relative;
@@ -31,7 +31,7 @@
     &-card-advanced {
         border: 3px solid $primary-color;
         padding: 55px 30px 30px 30px;
-        min-width: 320px;
+        width: 310px;
         border-radius: 8px;
         position: relative;
     }
