@@ -104,6 +104,10 @@
     .container {
         overflow-x: hidden;
     }
+
+    .wrapper {
+        overflow-x: hidden;
+    }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -128,6 +132,10 @@
     }
 
     .container {
+        overflow-x: hidden;
+    }
+
+    .wrapper {
         overflow-x: hidden;
     }
 } 
@@ -322,6 +330,10 @@
 
     #myBtn {
         display: none;
+    }
+
+    .wrapper {
+        overflow-x: hidden;
     }
 
     .container {
@@ -575,6 +587,10 @@
 
     #myBtn {
         display: none;
+    }
+
+    .wrapper {
+        overflow-x: hidden;
     }
 
     .container {
