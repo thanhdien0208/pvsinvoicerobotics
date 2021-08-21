@@ -397,9 +397,9 @@
                 
             </footer>
         </div>
-        <!-- <div class="footer-copyright">
+        <div class="footer-copyright">
             <a href="#" class="footer-copyright-desc"><p > Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> PVS SOFTWARE</p></a>
-        </div> -->
+        </div>
     </div>
     <!-- <button onclick="topFunction()" id="myBtn" class="backtoback" title="Go to top"><i class="fas fa-hand-pointer"></i></button> -->
     <!-- JS Link -->
@@ -409,6 +409,34 @@
     <!-- <script>
         AOS.init(); 
     </script> -->
+
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "108572487599775");
+        chatbox.setAttribute("attribution", "biz_inbox");
+
+        window.fbAsyncInit = function() {
+            FB.init({
+            xfbml            : true,
+            version          : 'v11.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     
 </body>
     
