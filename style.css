@@ -52,6 +52,7 @@ body {
 .weapper {
   max-width: 1440px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .container {
@@ -61,6 +62,7 @@ body {
   background-image: url(./assets/img/background__header.png);
   background-repeat: no-repeat;
   background-size: contain;
+  overflow-x: hidden;
 }
 
 .button {
@@ -649,13 +651,13 @@ body {
 .price-card-free {
   border: 3px solid #f6d41c;
   padding: 55px 30px 30px 30px;
-  max-width: 300px;
+  width: 310px;
   border-radius: 8px;
 }
 .price-card-basic {
   border: 3px solid #f6d41c;
   padding: 55px 30px 30px 30px;
-  max-width: 300px;
+  width: 310px;
   border-radius: 8px;
   background-color: #f7f7f7;
   position: relative;
@@ -663,7 +665,7 @@ body {
 .price-card-advanced {
   border: 3px solid #f6d41c;
   padding: 55px 30px 30px 30px;
-  max-width: 300px;
+  width: 310px;
   border-radius: 8px;
   position: relative;
 }
@@ -872,6 +874,9 @@ body {
   font-weight: 500;
   line-height: 1.5;
   left: 25%;
+  max-width: 1170px;
+  margin: 0 auto;
+  overflow-y: hidden;
 }
 
 /* back to back */
@@ -991,10 +996,6 @@ body {
   }
 
   .header-auth {
-    display: none;
-  }
-
-  #myBtn {
     display: none;
   }
 }

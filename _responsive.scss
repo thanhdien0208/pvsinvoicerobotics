@@ -97,17 +97,6 @@
         }
     }
 
-    .backtoback {
-        display: none;
-    }
-
-    .container {
-        overflow-x: hidden;
-    }
-
-    .wrapper {
-        overflow-x: hidden;
-    }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -127,17 +116,6 @@
         display: none;
     }
 
-    .backtoback {
-        display: none;
-    }
-
-    .container {
-        overflow-x: hidden;
-    }
-
-    .wrapper {
-        overflow-x: hidden;
-    }
 } 
 
 @media only screen and (max-width: 768px) {
@@ -328,17 +306,6 @@
         }
     }
 
-    .backtoback {
-        display: none;
-    }
-
-    .wrapper {
-        overflow-x: hidden;
-    }
-
-    .container {
-        overflow-x: hidden;
-    }
 }
 
 @media only screen and (max-width: 512px) {
@@ -585,15 +552,4 @@
         }
     }
 
-    .backtoback {
-        display: none;
-    }
-
-    .wrapper {
-        overflow-x: hidden;
-    }
-
-    .container {
-        overflow-x: hidden;
-    }
 }
