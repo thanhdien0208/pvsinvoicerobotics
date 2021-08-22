@@ -538,6 +538,7 @@
         }
         &-link {
             font-size: 15px;
+            width: 100%;
 
             &:hover {
                 color: $primary-color;
@@ -551,15 +552,17 @@
 
         &-img {
             margin-bottom: 0px;
+            width: 100%;
+            margin-left: 15px;
         }
 
         &-icons {
             position: absolute;
             bottom: 10px;
-            left: 19%;
+            left: 15%;
 
             & span {
-                font-size: 14px;
+                font-size: 16px;
             }
         }
 

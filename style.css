@@ -1306,6 +1306,7 @@ body {
   }
   .footer-link {
     font-size: 15px;
+    width: 100%;
   }
   .footer-link:hover {
     color: #f6d41c;
@@ -1316,14 +1317,16 @@ body {
   }
   .footer-img {
     margin-bottom: 0px;
+    width: 100%;
+    margin-left: 15px;
   }
   .footer-icons {
     position: absolute;
     bottom: 10px;
-    left: 19%;
+    left: 15%;
   }
   .footer-icons span {
-    font-size: 14px;
+    font-size: 16px;
   }
   .footer-copyright {
     padding-bottom: 5px;
