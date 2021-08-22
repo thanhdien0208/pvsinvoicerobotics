@@ -527,18 +527,26 @@
 
     .footer {
         margin-top: 0px;
-        display: block;
         position: relative;
+
+        &-group {
+            display: block;
+        }
         
         &-info {
             margin-left: 20px;
         }
         &-link {
-            font-size: 16px;
+            font-size: 15px;
 
             &:hover {
                 color: $primary-color;
             }
+        }
+
+        &-link i {
+            font-size: 17px;
+            margin-right: .5rem;
         }
 
         &-img {
@@ -548,7 +556,20 @@
         &-icons {
             position: absolute;
             bottom: 10px;
-            left: 15%;
+            left: 19%;
+
+            & span {
+                font-size: 14px;
+            }
+        }
+
+        &-copyright {
+            padding-bottom: 5px;
+        }
+
+        &-copyright-desc {
+            display: block;
+            font-size: 11px;
         }
     }
 

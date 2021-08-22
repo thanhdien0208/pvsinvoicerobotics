@@ -1,11 +1,14 @@
 .footer {
     margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     background-image: url(./assets/img/background__footer.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    &-group {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
     &-info {
         line-height: 2;
@@ -34,30 +37,29 @@
 
     &-icons {
         text-align: center;
+
+        & span {
+            font-size: 24px;
+            margin-left: 2rem;
+            color: #000;
+            transition: color 0.2 ease-in-out;
+
+            &:hover {
+                color: #fff;
+            }
+        }
     }
 
-    &-icons span {
-        font-size: 24px;
-        margin-left: 2rem;
-        color: #000;
-        transition: color 0.2 ease-in-out;
-
-        &:hover {
-            color: #fff;
-        }
+    &-copyright {
+        padding-bottom: 10px;
     }
 
     &-copyright-desc{
         text-align: center;
-        color: #333;
-        font-size: 16px;
+        color: #f1f1f1;
+        font-size: 14px;
         font-weight: 500;
         line-height: 1.5;
-        // position: static;
-        // bottom: 0;
-        left: 25%;
-        max-width: 1170px;
-        margin: 0 auto;
-        overflow-y: hidden;
+        
     }
 }
